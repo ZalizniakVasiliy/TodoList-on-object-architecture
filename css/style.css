@@ -1,0 +1,38 @@
+.taskWrapper {
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.taskHeading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.taskDescription {
+  font-size: 16px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+}
+
+.completed {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(48, 13, 251);
+}
+
+.delete-btn {
+  display: block;
+  margin: 0 auto;
+  color: aqua;
+}
