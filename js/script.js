@@ -18,7 +18,7 @@
       this.findForm();
       this.getTodoContainer();
       this.getDeleteAllElems();
-      this.addFormEvents();
+      this.addEvents();
     },
 
     findForm() {
@@ -41,7 +41,7 @@
       this.deleteAllElemsBtn = this.form.querySelector(`.delete-all-elems`);
     },
 
-    addFormEvents() {
+    addEvents() {
       this.form.addEventListener("submit", (event) => this.formHandler(event));
 
       document.addEventListener(
